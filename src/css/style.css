@@ -1,5 +1,5 @@
 body {
-  background: #f9f9f9;
+  background: #f4faf9;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -39,6 +39,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  height: 50vh;
 }
 
 .image {
@@ -50,7 +51,7 @@ footer {
   justify-content: center;
   width: 70%;
   padding: 10px;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Efeitos do texto quando o mouse estive em cima da Imagem */
