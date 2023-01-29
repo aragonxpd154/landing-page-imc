@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/" />
+    <title>IMC Calculadora</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .image {
+        justify-content: center;
+        width: 25%;
+        height: auto;
+      }
+
+      .text {
+        justify-content: center;
+        width: 70%;
+        padding: 10px;
+        text-align: justify;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .image,
+        .text {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="image" src="./src/img/img.png" alt="your-image" />
+      <div class="text">
+        <p>
+          <label for="input-weight">Informe o seu peso (kg):</label><br /><br />
+          <input id="input-weight" type="number" value="98" step="0.1" />
+        </p>
+        <p>
+          <label for="input-height">Informe a sua altura (metros):</label
+          ><br /><br />
+          <input id="input-height" type="number" value="1.78" step="0.01" />
+        </p>
+        <p id="paragraph-result">
+          IMC desses dados é <strong id="imc-result"></strong>
+        </p>
+        <p id="condicao">
+          Este valor considera que você está na faixa
+          <strong id="condicaoObesidade"></strong>
+        </p>
+      </div>
+    </div>
+    <script defer
+  </body>
+</html>
