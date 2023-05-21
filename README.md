@@ -27,7 +27,7 @@ The purpose of this code is to create a Body Mass Index (BMI) calculator on a we
 </p>
 
 <p align="center">
-<img alt="Demo on Photo" src="https://i.imgur.com/MHpWSmg.png">
+<img alt="Demo on Photo" src="https://github.com/aragonxpd154/landing-page-imc/blob/main/src/img/demo_photo.png">
 </p>
 
 ## :rocket: Technologies
